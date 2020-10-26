@@ -15,15 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Vulnerable-Program\Vulnerable-Program\main.c">
+    <ClCompile Include="main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Vulnerable-Program\Vulnerable-Program\md5.c">
+    <ClCompile Include="md5.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\Vulnerable-Program\Vulnerable-Program\md5.h">
+    <ClInclude Include="md5.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

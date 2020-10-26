@@ -139,11 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Vulnerable-Program\Vulnerable-Program\main.c" />
-    <ClCompile Include="..\..\Vulnerable-Program\Vulnerable-Program\md5.c" />
+    <ClInclude Include="md5.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\Vulnerable-Program\Vulnerable-Program\md5.h" />
+    <ClCompile Include="main.c" />
+    <ClCompile Include="md5.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
