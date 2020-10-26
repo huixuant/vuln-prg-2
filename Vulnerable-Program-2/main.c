@@ -75,8 +75,10 @@ int fuzz_target(char* filename) {
     MD5Update(&mdContext, input.contents, strlen(input.contents));
     MD5Final(&mdContext);
     
-    if (compare_hashes(mdContext.digest, input.md5)) 
+    if (compare_hashes(mdContext.digest, input.md5))
         this_is_a_vulnerable_function(0xFFFF);
+    else
+        printf("Hash value provided is incorrect. Please try again.");
     
     return 0;
 }
