@@ -1,0 +1,27 @@
+start_time        : 13248198630
+last_update       : 13248234252
+fuzzer_pid        : 301092
+cycles_done       : 2
+execs_done        : 167076
+execs_per_sec     : 0.83
+paths_total       : 14
+paths_favored     : 3
+paths_found       : 13
+paths_imported    : 0
+max_depth         : 5
+cur_path          : 1
+pending_favs      : 0
+pending_total     : 6
+variable_paths    : 5
+stability         : 99.15%
+bitmap_cvg        : 0.18%
+unique_crashes    : 0
+unique_hangs      : 0
+last_path         : 13248233783
+last_crash        : 0
+last_hang         : 0
+execs_since_crash : 167076
+exec_timeout      : 20000
+afl_banner        : Vulnerable-Program-2.exe
+afl_version       : 2.43b
+command_line      : afl-fuzz.exe -i input-vuln-prg-2 -o vuln-prg-2-001 -D ..\..\..\..\DynamoRIO-Windows-8.0.0-1\DynamoRIO-Windows-8.0.0-1\bin64 -t 20000 -- -coverage_module Vulnerable-Program-2.exe -target_module Vulnerable-Program-2.exe -target_method fuzz_target -nargs 1 -- C:\Users\holai\source\repos\Vulnerable-Program-2\x64\Debug\Vulnerable-Program-2.exe @@
